@@ -1,27 +1,66 @@
-p{
-    font-size: 16pt;
-    color: aliceblue;
+*{
+    color: white;
 }
-h1{
+h1 {
     font-size: 30pt;
     color: rgb(222, 222, 222);
 }
-#Header{
+
+#Header {
     height: 20pt;
-    background-color:rgb(0, 128, 128);
+    background-color: rgb(0, 128, 128);
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
 }
-#Header span{
+
+#Header a {
+    line-height: 10pt;
+    font-size: 15pt;
     margin-left: 10pt;
     margin-right: 10pt;
+    color: rgb(128, 255, 255);
+    text-decoration: none;
+    position: relative;
+    top: 2pt;
 }
-#SideBar{
-    
+
+#SideBar {
+    color: white;
 }
-#MainBar{
+
+#MainBar {
     font-size: 16pt;
     color: white;
+}
+
+#Footer{
+    text-align:center;
+    position: fixed;
+    bottom: 10pt;
+    font-weight: lighter;
+    left:45%;
+}
+
+ph{
+    font-size: 16pt;
+    color: rgb(240, 240, 240);
+    margin-left: 32pt;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+ph1{
+    font-size: 20pt;
+    font-weight:10pt;
+    color: rgb(240, 240, 240);
+    margin-left: 32pt;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
