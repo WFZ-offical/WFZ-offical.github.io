@@ -1,0 +1,27 @@
+p{
+    font-size: 16pt;
+    color: aliceblue;
+}
+h1{
+    font-size: 30pt;
+    color: rgb(222, 222, 222);
+}
+#Header{
+    height: 20pt;
+    background-color:rgb(0, 128, 128);
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+#Header span{
+    margin-left: 10pt;
+    margin-right: 10pt;
+}
+#SideBar{
+    
+}
+#MainBar{
+    font-size: 16pt;
+    color: white;
+}
