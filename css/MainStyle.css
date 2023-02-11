@@ -45,6 +45,7 @@ h1 {
     margin-top: 17pt;
     margin-bottom: 17pt;
     text-decoration: none;
+    border-style:solid;
 }
 
 #MainBar {
@@ -52,6 +53,8 @@ h1 {
     color: white;
     position: absolute;
     left: 72pt;
+    border-style: solid;
+    border-width:5px;
 }
 
 #Footer{
