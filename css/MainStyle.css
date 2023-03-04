@@ -33,30 +33,47 @@ h1 {
     color: white;
     position: absolute;
     left:0pt;
-    top:20pt;
+    top:32pt;
     font-size: 16pt;
-    text-align: center;
     background-color: #1f1f1f;
     width:64pt;
     height:100%;
     float: left;
+    border-style: solid;
+    border-color: rgb(64, 64, 64);
 }
 #SideBar *{
+    position: relative;
+    top:2pt;
+    line-height: 36pt;
     font-weight: bolder;
     margin:10pt;
-    margin-top: 17pt;
-    margin-bottom: 17pt;
+    margin-left: 14pt;
+    white-space: nowrap;
     text-decoration: none;
-    border-style:solid;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: aliceblue;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 2pt;
+    padding-right: 2pt;
+}
+#SideBar *:hover{
+    border-width: 2pt;
+    margin-left: 13pt;
 }
 
 #MainBar {
     font-size: 16pt;
     color: white;
     position: absolute;
-    left: 72pt;
+    left: 10%;
+    width: 80%;
+    top:32pt;
     border-style: solid;
     border-width:5px;
+    padding-bottom: 8pt;
 }
 
 #Footer{
